@@ -21,26 +21,66 @@
              h1{color:rgb(236, 13, 13);}
              h2{color:rgb(214, 28, 28);}
              h4{color:rgb(232, 241, 234);}
+             h3{color:black;}
             
             
              </style>
               </head>
 <body>
     <h1>MY REWIND PLANS</h1>
-    <ol>
-   <li><h4> skateboarding</h4></li>
+    <ol> <li> 
+        <h3> <u><i>skateboarding</i></u></h3>
+       </li>
+   <video id="my-video1" width="700" height="400">
+                <source src="skate.mp4" type="video/mp4">
+                <p>Your browser does not support HTML5 video.</p>
+            </video>
+        <button onclick="playVideo1()">PlAYVIDEO</button>
+         <script>
+        function playVideo1() {
+        var video = document.getElementById("my-video1");
+        video.play();
+        }
+        </script>
+<p><u>Value=</u><i>
+    Importance of practice consistency and patience</i></p>
+    <hr><br>
+        
+        
+    <li>
+        <h3>swimming</h3>
+    </li>
+    <video id="my-video2" width="700" height="400">
+        <source src="swim.mp4" type="video/mp4">
+        <p>Your browser does not support HTML5 video.</p>
+    </video>
+<button onclick="playVideo2()">PlAYVIDEO</button>
+ <script>
+function playVideo2() {
+var video = document.getElementById("my-video2");
+video.play();
+}
+</script>
     <p><u>Value=</u><i>
-        Importance of practice consistency and patience</i></p>
-    <li><h4>swimming</h4></li>
-    <p><u>Value=</u><i>
-        Fitness and overcoming fears through  experiencing building hence self confidence </i></p>
-    <li><h4>Reading books</h4></li>
+        Fitness and overcoming fears hence self confidence in lessons learnt </i></p>
+        <hr><br>
+
+    <li><h3>Reading books</h3></li>
+    <img src="currentread.jpg" width="400"></img>
+    <br>Current read on my journey towards proffessional Pen Testing
     <p><u>Value=</u><i>
         Feed my curiosity by learning new topics</i></p>
-    <li><h4>Chess</h4></li>
+        <hr><br>
+    <li><h3>Chess</h3></li>
+    <img src="chess.jpg" width="400">
+    <br>Enjoying chess on my linux box
     <p><u>Value=</u><i> 
         planning and strategy</i></p>
-    <li><h4>Solving rubiks cubes</li></h4>
+        <hr><br>
+    <li><h3>Solving rubiks cubes</li></h3>
+    <img src="rubik.jpg"width="400" ></img> 
+    <br>
+    A solved rubik cube
     <p><u>Value=</u><i>
     Storing solutions in Algorithms ensuring we solve problems with predetermined methods</i></p>
 </ol>
